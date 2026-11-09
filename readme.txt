@@ -4,7 +4,7 @@ Tags: block-patterns, full-site-editing, one-column, wide-blocks, editor-style, 
 Requires at least: 6.6
 Tested up to: 7.1
 Requires PHP: 8.1
-Stable tag: 1.0.0
+Stable tag: 1.1.0
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -48,6 +48,11 @@ Photographs in assets/images are not under the GPL: each is under its source's l
 * Site icon (assets/images/site-icon.png): original artwork by Allan Niñal, GPLv2 or later.
 
 == Changelog ==
+
+= 1.1.0 =
+* Added: each bean origin shows a roast scale, a brightness meter, altitude and variety.
+* Added: a Brew Guide pattern with four recipes; the menu shows what each item contains, and the subscription plans show their saving.
+* Added: the live open-now line beside the opening hours, the order cut-off line, the menu board style and the diet chips from the full version's food features.
 
 = 1.0.0 =
 * First release, published on GitHub (github.com/allanninal/slow-pour-lite).

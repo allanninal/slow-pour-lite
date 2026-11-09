@@ -51,6 +51,16 @@ ob_start();
 <!-- /wp:paragraph -->
 </div>
 <!-- /wp:group -->
+<!-- wp:group {"layout":{"type":"grid","columnCount":2,"minimumColumnWidth":"8rem"},"className":"sp-profile"} -->
+<div class="wp-block-group sp-profile">
+<!-- wp:paragraph {"className":"sp-scale sp-scale\u002d\u002d1"} -->
+<p class="sp-scale sp-scale--1"><?php echo wp_kses_post( __( '<span class="sp-label">Roast</span> Light', 'slow-pour-lite' ) ); ?></p>
+<!-- /wp:paragraph -->
+<!-- wp:paragraph {"className":"sp-meter sp-meter\u002d\u002d4"} -->
+<p class="sp-meter sp-meter--4"><?php echo wp_kses_post( __( '<span class="sp-label">Brightness</span> 4 of 5', 'slow-pour-lite' ) ); ?></p>
+<!-- /wp:paragraph -->
+</div>
+<!-- /wp:group -->
 <!-- wp:group {"layout":{"type":"grid","columnCount":2,"minimumColumnWidth":"8rem"},"className":"sp-facts"} -->
 <div class="wp-block-group sp-facts">
 <!-- wp:group {"layout":{"type":"default"},"className":"sp-fact"} -->
@@ -70,6 +80,26 @@ ob_start();
 <!-- /wp:paragraph -->
 <!-- wp:paragraph -->
 <p><?php echo esc_html__( 'Natural', 'slow-pour-lite' ); ?></p>
+<!-- /wp:paragraph -->
+</div>
+<!-- /wp:group -->
+<!-- wp:group {"layout":{"type":"default"},"className":"sp-fact"} -->
+<div class="wp-block-group sp-fact">
+<!-- wp:paragraph {"className":"sp-label"} -->
+<p class="sp-label"><?php echo esc_html__( 'Altitude', 'slow-pour-lite' ); ?></p>
+<!-- /wp:paragraph -->
+<!-- wp:paragraph -->
+<p><?php echo esc_html__( '1,900–2,200 m', 'slow-pour-lite' ); ?></p>
+<!-- /wp:paragraph -->
+</div>
+<!-- /wp:group -->
+<!-- wp:group {"layout":{"type":"default"},"className":"sp-fact"} -->
+<div class="wp-block-group sp-fact">
+<!-- wp:paragraph {"className":"sp-label"} -->
+<p class="sp-label"><?php echo esc_html__( 'Variety', 'slow-pour-lite' ); ?></p>
+<!-- /wp:paragraph -->
+<!-- wp:paragraph -->
+<p><?php echo esc_html__( 'Heirloom', 'slow-pour-lite' ); ?></p>
 <!-- /wp:paragraph -->
 </div>
 <!-- /wp:group -->
@@ -112,6 +142,16 @@ ob_start();
 <!-- /wp:paragraph -->
 </div>
 <!-- /wp:group -->
+<!-- wp:group {"layout":{"type":"grid","columnCount":2,"minimumColumnWidth":"8rem"},"className":"sp-profile"} -->
+<div class="wp-block-group sp-profile">
+<!-- wp:paragraph {"className":"sp-scale sp-scale\u002d\u002d3"} -->
+<p class="sp-scale sp-scale--3"><?php echo wp_kses_post( __( '<span class="sp-label">Roast</span> Medium', 'slow-pour-lite' ) ); ?></p>
+<!-- /wp:paragraph -->
+<!-- wp:paragraph {"className":"sp-meter sp-meter\u002d\u002d3"} -->
+<p class="sp-meter sp-meter--3"><?php echo wp_kses_post( __( '<span class="sp-label">Brightness</span> 3 of 5', 'slow-pour-lite' ) ); ?></p>
+<!-- /wp:paragraph -->
+</div>
+<!-- /wp:group -->
 <!-- wp:group {"layout":{"type":"grid","columnCount":2,"minimumColumnWidth":"8rem"},"className":"sp-facts"} -->
 <div class="wp-block-group sp-facts">
 <!-- wp:group {"layout":{"type":"default"},"className":"sp-fact"} -->
@@ -131,6 +171,26 @@ ob_start();
 <!-- /wp:paragraph -->
 <!-- wp:paragraph -->
 <p><?php echo esc_html__( 'Washed', 'slow-pour-lite' ); ?></p>
+<!-- /wp:paragraph -->
+</div>
+<!-- /wp:group -->
+<!-- wp:group {"layout":{"type":"default"},"className":"sp-fact"} -->
+<div class="wp-block-group sp-fact">
+<!-- wp:paragraph {"className":"sp-label"} -->
+<p class="sp-label"><?php echo esc_html__( 'Altitude', 'slow-pour-lite' ); ?></p>
+<!-- /wp:paragraph -->
+<!-- wp:paragraph -->
+<p><?php echo esc_html__( '1,750 m', 'slow-pour-lite' ); ?></p>
+<!-- /wp:paragraph -->
+</div>
+<!-- /wp:group -->
+<!-- wp:group {"layout":{"type":"default"},"className":"sp-fact"} -->
+<div class="wp-block-group sp-fact">
+<!-- wp:paragraph {"className":"sp-label"} -->
+<p class="sp-label"><?php echo esc_html__( 'Variety', 'slow-pour-lite' ); ?></p>
+<!-- /wp:paragraph -->
+<!-- wp:paragraph -->
+<p><?php echo esc_html__( 'Caturra, Castillo', 'slow-pour-lite' ); ?></p>
 <!-- /wp:paragraph -->
 </div>
 <!-- /wp:group -->
@@ -171,7 +231,7 @@ ob_start();
 <p class="sp-promise__title"><?php echo esc_html__( 'Roasted weekly, in-house', 'slow-pour-lite' ); ?></p>
 <!-- /wp:paragraph -->
 <!-- wp:paragraph {"className":"sp-muted","fontSize":"small"} -->
-<p class="has-small-font-size sp-muted"><?php echo esc_html__( 'Never more than 7 days from roast to bag', 'slow-pour-lite' ); ?></p>
+<p class="has-small-font-size sp-muted"><?php echo esc_html__( 'Roasted Tuesday and Friday mornings. Never more than 7 days from roast to bag.', 'slow-pour-lite' ); ?></p>
 <!-- /wp:paragraph -->
 </div>
 <!-- /wp:group -->

@@ -40,6 +40,9 @@ ob_start();
 <!-- wp:paragraph {"className":"sp-plan__cost"} -->
 <p class="sp-plan__cost"><?php echo wp_kses_post( __( '<span class="sp-plan__price">$22</span> /month', 'slow-pour-lite' ) ); ?></p>
 <!-- /wp:paragraph -->
+<!-- wp:paragraph {"className":"sp-saving"} -->
+<p class="sp-saving"><?php echo esc_html__( 'Save 12% vs a bag in the shop', 'slow-pour-lite' ); ?></p>
+<!-- /wp:paragraph -->
 <!-- wp:paragraph {"className":"sp-plan__desc","fontSize":"small"} -->
 <p class="has-small-font-size sp-plan__desc"><?php echo esc_html__( 'A 250g bag of whatever single-origin lot we\'re most excited about this month. Includes our tasting notes, the farmer\'s story, and a brew guide.', 'slow-pour-lite' ); ?></p>
 <!-- /wp:paragraph -->
@@ -58,7 +61,7 @@ ob_start();
 <li><?php echo esc_html__( 'Brew guide matched to the lot', 'slow-pour-lite' ); ?></li>
 <!-- /wp:list-item -->
 <!-- wp:list-item -->
-<li><?php echo esc_html__( 'Cancel anytime', 'slow-pour-lite' ); ?></li>
+<li><?php echo esc_html__( 'Skip or cancel anytime', 'slow-pour-lite' ); ?></li>
 <!-- /wp:list-item -->
 </ul>
 <!-- /wp:list -->
@@ -79,6 +82,9 @@ ob_start();
 <!-- wp:paragraph {"className":"sp-plan__cost"} -->
 <p class="sp-plan__cost"><?php echo wp_kses_post( __( '<span class="sp-plan__price">$17</span> /month', 'slow-pour-lite' ) ); ?></p>
 <!-- /wp:paragraph -->
+<!-- wp:paragraph {"className":"sp-saving"} -->
+<p class="sp-saving"><?php echo esc_html__( 'Save 11% vs a bag in the shop', 'slow-pour-lite' ); ?></p>
+<!-- /wp:paragraph -->
 <!-- wp:paragraph {"className":"sp-plan__desc","fontSize":"small"} -->
 <p class="has-small-font-size sp-plan__desc"><?php echo esc_html__( 'Our Huila-forward espresso blend, dialed in for versatility — filter, espresso, or French press. Consistent, rich, forgiving.', 'slow-pour-lite' ); ?></p>
 <!-- /wp:paragraph -->
@@ -97,7 +103,7 @@ ob_start();
 <li><?php echo esc_html__( 'Great for espresso and milk drinks', 'slow-pour-lite' ); ?></li>
 <!-- /wp:list-item -->
 <!-- wp:list-item -->
-<li><?php echo esc_html__( 'Cancel anytime', 'slow-pour-lite' ); ?></li>
+<li><?php echo esc_html__( 'Skip or cancel anytime', 'slow-pour-lite' ); ?></li>
 <!-- /wp:list-item -->
 </ul>
 <!-- /wp:list -->
@@ -113,7 +119,7 @@ ob_start();
 </div>
 <!-- /wp:group -->
 <!-- wp:paragraph {"align":"center","fontSize":"small","textColor":"border-muted"} -->
-<p class="has-text-align-center has-border-muted-color has-text-color has-small-font-size"><?php echo wp_kses_post( __( 'Questions? Email <a href="mailto:hello@mansacoffee.example">hello@mansacoffee.example</a>. We roast Tuesday and Friday mornings.', 'slow-pour-lite' ) ); ?></p>
+<p class="has-text-align-center has-border-muted-color has-text-color has-small-font-size"><?php echo wp_kses_post( __( 'Questions? Email <a href="mailto:hello@mansacoffee.example">hello@mansacoffee.example</a>. Roasted Tuesday and Friday mornings.', 'slow-pour-lite' ) ); ?></p>
 <!-- /wp:paragraph -->
 </section>
 <!-- /wp:group -->

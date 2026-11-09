@@ -107,6 +107,9 @@ ob_start();
 <!-- /wp:group -->
 </div>
 <!-- /wp:group -->
+<!-- wp:paragraph {"placeholder":"Open now status (filled in from the hours above)","className":"is-style-open-status"} -->
+<p class="is-style-open-status"></p>
+<!-- /wp:paragraph -->
 <!-- wp:paragraph {"className":"sp-faint","fontSize":"small"} -->
 <p class="has-small-font-size sp-faint"><?php echo esc_html__( 'Holiday hours posted on our Instagram Instagram. Kitchen closes 30 minutes before shop.', 'slow-pour-lite' ); ?></p>
 <!-- /wp:paragraph -->

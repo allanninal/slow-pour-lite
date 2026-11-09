@@ -27,6 +27,9 @@ ob_start();
 <!-- wp:paragraph {"className":"sp-lede-left sp-muted"} -->
 <p class="sp-lede-left sp-muted"><?php echo esc_html__( 'We do a few things exceptionally well. Every drink on this list has been obsessed over, adjusted, and obsessed over again.', 'slow-pour-lite' ); ?></p>
 <!-- /wp:paragraph -->
+<!-- wp:paragraph {"placeholder":"Order cut-off (filled in from WooCommerce > Settings > Shipping > Order ahead)","className":"is-style-order-cutoff"} -->
+<p class="is-style-order-cutoff"></p>
+<!-- /wp:paragraph -->
 <!-- wp:columns -->
 <div class="wp-block-columns">
 <!-- wp:column {"width":"62%"} -->
@@ -94,6 +97,9 @@ ob_start();
 <!-- wp:paragraph {"className":"sp-muted","fontSize":"small"} -->
 <p class="has-small-font-size sp-muted"><?php echo esc_html__( 'Our Huila espresso pulled long, poured into perfectly steamed oat milk. Silky, nutty, not overpowering.', 'slow-pour-lite' ); ?></p>
 <!-- /wp:paragraph -->
+<!-- wp:paragraph {"className":"sp-faint sp-contains","fontSize":"small"} -->
+<p class="has-small-font-size sp-faint sp-contains"><?php echo esc_html__( 'Contains: oats', 'slow-pour-lite' ); ?></p>
+<!-- /wp:paragraph -->
 </div>
 <!-- /wp:group -->
 <!-- wp:group {"layout":{"type":"default"},"className":"sp-item"} -->
@@ -113,6 +119,9 @@ ob_start();
 <!-- /wp:group -->
 <!-- wp:paragraph {"className":"sp-muted","fontSize":"small"} -->
 <p class="has-small-font-size sp-muted"><?php echo esc_html__( 'House-made lavender honey syrup, double espresso, whole milk. Floral without being sweet.', 'slow-pour-lite' ); ?></p>
+<!-- /wp:paragraph -->
+<!-- wp:paragraph {"className":"sp-faint sp-contains","fontSize":"small"} -->
+<p class="has-small-font-size sp-faint sp-contains"><?php echo esc_html__( 'Contains: milk', 'slow-pour-lite' ); ?></p>
 <!-- /wp:paragraph -->
 </div>
 <!-- /wp:group -->
@@ -180,6 +189,9 @@ ob_start();
 <!-- wp:paragraph {"className":"sp-faint","fontSize":"small"} -->
 <p class="has-small-font-size sp-faint"><?php echo esc_html__( 'Baked daily by Larkspur Bakery', 'slow-pour-lite' ); ?></p>
 <!-- /wp:paragraph -->
+<!-- wp:paragraph {"className":"sp-faint sp-contains","fontSize":"small"} -->
+<p class="has-small-font-size sp-faint sp-contains"><?php echo esc_html__( 'Contains: wheat, milk, eggs', 'slow-pour-lite' ); ?></p>
+<!-- /wp:paragraph -->
 </div>
 <!-- /wp:group -->
 <!-- wp:paragraph {"className":"sp-item__price"} -->
@@ -197,6 +209,9 @@ ob_start();
 <!-- wp:paragraph {"className":"sp-faint","fontSize":"small"} -->
 <p class="has-small-font-size sp-faint"><?php echo esc_html__( 'Sourdough · smoked salt · lemon · chilli flakes', 'slow-pour-lite' ); ?></p>
 <!-- /wp:paragraph -->
+<!-- wp:paragraph {"className":"sp-faint sp-contains","fontSize":"small"} -->
+<p class="has-small-font-size sp-faint sp-contains"><?php echo esc_html__( 'Contains: wheat', 'slow-pour-lite' ); ?></p>
+<!-- /wp:paragraph -->
 </div>
 <!-- /wp:group -->
 <!-- wp:paragraph {"className":"sp-item__price"} -->
@@ -213,6 +228,9 @@ ob_start();
 <!-- /wp:paragraph -->
 <!-- wp:paragraph {"className":"sp-faint","fontSize":"small"} -->
 <p class="has-small-font-size sp-faint"><?php echo esc_html__( 'Slice · house recipe', 'slow-pour-lite' ); ?></p>
+<!-- /wp:paragraph -->
+<!-- wp:paragraph {"className":"sp-faint sp-contains","fontSize":"small"} -->
+<p class="has-small-font-size sp-faint sp-contains"><?php echo esc_html__( 'Contains: wheat, milk, eggs, tree nuts', 'slow-pour-lite' ); ?></p>
 <!-- /wp:paragraph -->
 </div>
 <!-- /wp:group -->
@@ -247,6 +265,9 @@ ob_start();
 <!-- /wp:paragraph -->
 <!-- wp:paragraph {"className":"sp-faint","fontSize":"small"} -->
 <p class="has-small-font-size sp-faint"><?php echo esc_html__( 'Delivered Tue &amp; Fri from Larkspur Bakery', 'slow-pour-lite' ); ?></p>
+<!-- /wp:paragraph -->
+<!-- wp:paragraph {"className":"sp-faint sp-contains","fontSize":"small"} -->
+<p class="has-small-font-size sp-faint sp-contains"><?php echo esc_html__( 'Contains: wheat, milk, eggs, tree nuts', 'slow-pour-lite' ); ?></p>
 <!-- /wp:paragraph -->
 </div>
 <!-- /wp:group -->
